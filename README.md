@@ -59,7 +59,7 @@ temperature-converter/
 To run the temperature converter, execute the following command in your terminal:
 
 ```sh
-python converter.py
+python3 converter.py
 ```
 
 Follow the prompts to choose a conversion type and input the temperature value.
@@ -69,7 +69,7 @@ Follow the prompts to choose a conversion type and input the temperature value.
 To run the unit tests for the conversion functions, execute the following command in your terminal:
 
 ```sh
-python -m unittest test_converter.py
+python3 -m unittest test_converter.py
 ```
 
 You should see output indicating that the tests passed.
